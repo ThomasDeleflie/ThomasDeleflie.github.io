@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kulim Park', sans-serif;
+}
+#main{
+    display: flex;
+}
+/*=================Side Bar==================*/
+aside{
+    background-color: RGBA(249,168,37,0.81);
+    width: 20%; 
+}
+img{
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 30px 0px 30px 0px;
+}
+aside article{
+    text-align: justify;
+    word-wrap: break-word;
+}
+aside article p{
+padding: 1px 10px 0px 10px;
+    
+}
+aside article:nth-of-type(2){
+    margin-bottom: 180px;
+}
+aside h2{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    height: 30px;
+    background-color: #424242;
+    color: RGBA(249,168,37,0.81);
+    padding-bottom: 15px;
+}
+aside i{
+    margin: 15px;
+    padding: 10px;
+    }
+/*====================end Side bar===============*/
+
+/*====================Header===================*/
+header{
+    margin: 100px 30px 100px 82px;
+    font-size: 2.5em;
+    line-height: 0em;
+}
+.prenom{
+    color: RGBA(249,168,37,0.81);
+    font-weight: bolder;
+}
+h1{
+    font-size: 1em;
+}
+header p{
+    font-size: 0.5em;
+    margin-left: 4px;
+    line-height: 1.4em;
+    background: linear-gradient(to right, RGBA(249,168,37,0.81),RGBA(249,168,37,0.81)) no-repeat;
+    background-size: 6% 2px;
+    background-position: left bottom;
+}
+/*===================end header===================*/
+
+/*==================conteneur====================*/   
+#conteneur{
+    margin: 0px 50px 0px 50px; 
+}       
+#conteneur i{
+    float: left;
+    margin: 5px;
+}
+#conteneur article{
+     display: flex;
+}
+#conteneur article div{
+   width: 80%;
+}
+/*=================end conteneur===================*/
+
+/*=======================titles====================*/
+h2{
+    border-bottom: 2px solid RGBA(249,168,37,0.81);
+    line-height: 2.4em;
+}
+#conteneur i{
+    padding: 15px 20px 0px 0px;
+    color: RGBA(249,168,37,0.81);
+}
+/*=========================end titles=====================*/
+
+/*=======================recommandation===================*/
+section:last-of-type div{
+    width: 90%;
+    text-align: justify;
+    line-height: 7px;
+}
+section:last-of-type div p:first-of-type{
+    line-height: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+section:last-of-type p:nth-child(2){
+font-weight: bold;
+ }
+/*=================end recommandation========================*/
+
+/*=================media queries===========================*/
+@media screen and (max-width:1024px){
+    body{
+        font-size: 0.8em;
+    }
+    #main{ 
+        flex-direction: column;
+    }
+    aside{ 
+        width: 100%;
+        background-color: #ffff;
+    }
+    img{
+        width: 35%;
+        height: 30%;
+    }
+    aside p{
+        text-align: center;
+    }
+    aside article+article{
+        display: none;
+    }
+    h2{
+        white-space: nowrap;
+    }
+}
