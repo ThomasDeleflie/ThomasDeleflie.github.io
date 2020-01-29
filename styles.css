@@ -131,7 +131,22 @@ font-weight: bold;
     aside article+article{
         display: none;
     }
+    }
+@media screen and (max-width:375px){
+    body{
+        font-size: 0.6em;
+    }
     h2{
         white-space: nowrap;
+        font-size: 1.1em;
     }
+    section:last-of-type div{
+        white-space: nowrap;
+    }
+    #conteneur i{
+        float: none;
+    }
+    #conteneur article div{
+        width: 50%;
+     }
 }
