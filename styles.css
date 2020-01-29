@@ -140,6 +140,10 @@ font-weight: bold;
         white-space: nowrap;
         font-size: 1.1em;
     }
+    .date{
+        font-size: 1.1em;
+        font-weight: 900;
+    }
     section:last-of-type div{
         white-space: nowrap;
     }
