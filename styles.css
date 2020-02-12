@@ -136,10 +136,18 @@ font-weight: bold;
     body{
         font-size: 0.6em;
     }
+    h1{
+        font-size: 1em;
+    }
     h2{
         white-space: nowrap;
         font-size: 1.1em;
     }
+    article{
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        }
     .date{
         font-size: 1.1em;
         font-weight: 900;
@@ -147,10 +155,14 @@ font-weight: bold;
     section:last-of-type div{
         white-space: nowrap;
     }
-    #conteneur i{
-        float: none;
-    }
     #conteneur article div{
-        width: 50%;
+        width: 100%;
      }
-}
+    #conteneur article i{
+        width: 100%;
+        display: none;
+     }
+    #conteneur h2 i{
+        padding: 0;
+     }
+    }
