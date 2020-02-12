@@ -163,6 +163,6 @@ font-weight: bold;
         display: none;
      }
     #conteneur h2 i{
-        padding: 0;
+        padding: 0; 
      }
     }
